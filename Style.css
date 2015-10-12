@@ -1,0 +1,163 @@
+
+html, body, h1, h2,
+h3, p, ol, ul, li, a, img {
+padding: 0;
+border: 0;
+margin: 0;
+}
+
+html {
+        min-width: 1080px;
+    }
+
+body {
+    background: #5f5f5f url(http://laryssahusiak.com/site/wp-content/uploads/2015/09/congruent_pentagon.png) repeat;
+}
+
+button {
+	display: inline;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 20px;
+
+}
+.main-content {
+	background: #fcfccc;  
+	font-family:'Slabo 27px', serif;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-right: 60px;
+	margin-top: 60px;
+	border: 3px solid #00bb99;
+	border-radius: 5px;
+	overflow:auto;
+	padding-bottom: 150px;
+	
+
+}
+
+header {
+	background: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/193/286/1e027a6.jpg) no-repeat top: 10px, right: 10px;;
+	position: relative;
+	text-align: left;
+	padding-top:55px;
+	margin-left: 60px;
+}
+
+header h1 {
+	font-size: 38px;
+	line-height: 1px;
+}
+
+header h4 {
+	font-size: 20px;
+	line-height: 1px;
+	margin-left: 7px;
+}
+
+header p {
+	font-size: 18px;
+	padding:10px;
+	margin-left:0px;
+}
+
+
+#profile {
+	padding:3px;
+	border: 0px;
+	border-style: solid;
+	border-bottom: -3px;
+	border-width: 3px;
+	box-shadow: 10px 10px 5px 0px rgba(0,187,153,.7);
+	border-color: black;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+
+	
+}
+
+.title {
+	float: left;
+}
+
+.date {
+	float: right;
+}
+
+section h3, p, ul, a{
+	padding: 10px;
+}
+
+h2 {
+	border-bottom: solid;
+	border-color: black;
+	border-width: 1.5px;
+	margin-left: 60px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+h3, p {
+	margin-left: 80px;
+	line-height: 1pt;
+}
+
+ul {
+	margin-left: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #00bb99;
+	text-decoration: underline;
+	
+}
+
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+
+form {
+	position: relative;
+	left: 100px;
+	padding: 10px;
+
+}
+
+
+form h5, input{
+	display: block;
+	margin-bottom: 10px;
+
+}
+
+input[email] {
+	font-size: 20px;
+	width: 120px;
+}
+
+
+.socialbuttons {
+	text-align: center;
+	padding: 20px;
+}
+
+footer {
+	width: 71.5%;
+	margin: auto;
+	background-color:#00bb99;
+	position: relative;
+	margin-top: -150px; 
+	height: 150px;
+	clear:both;
+}
+
+
